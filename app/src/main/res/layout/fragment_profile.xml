@@ -27,8 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv_email"
         android:layout_marginTop="16dp"
-        android:background="@color/colorPrimary"
-        android:foreground="?android:attr/selectableItemBackground"
-        android:text="@string/logoutText"
-        android:textColor="@android:color/white"/>
+        android:background="@color/teal_700"
+        android:textColor="@android:color/white"
+        android:text="@string/logoutText" />
 </RelativeLayout>

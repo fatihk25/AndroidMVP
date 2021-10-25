@@ -7,11 +7,19 @@
     android:padding="16dp"
     tools:context="com.example.loginregistermvp.modul.register.RegisterFragment">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/register"/>
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/ti_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="18dp">
+        android:layout_marginTop="124dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginBottom="18dp">
         <EditText
             android:id="@+id/et_name"
             android:layout_width="match_parent"
@@ -25,8 +33,10 @@
         android:id="@+id/ti_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/ti_name"
-        android:layout_margin="18dp">
+        android:layout_marginBottom="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_below="@id/ti_name">
         <EditText
             android:id="@+id/et_email"
             android:layout_width="match_parent"
@@ -42,7 +52,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/ti_email"
         app:passwordToggleEnabled="true"
-        android:layout_margin="18dp">
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp">
         <EditText
             android:id="@+id/et_pasword"
             android:layout_width="match_parent"
@@ -57,8 +68,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ti_password"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_margin="12dp"
         android:orientation="horizontal"
         android:padding="12dp">
 
@@ -84,10 +94,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/bt_radio_group"
-        android:layout_marginTop="16dp"
-        android:background="@color/colorPrimary"
-        android:foreground="?android:attr/selectableItemBackground"
-        android:text="@string/registerText"
-        android:textColor="@android:color/white"/>
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:background="@color/teal_700"
+        android:textColor="@android:color/white"
+        android:text="@string/registerText" />
 
 </RelativeLayout>

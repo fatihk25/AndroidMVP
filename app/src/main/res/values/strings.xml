@@ -10,7 +10,7 @@
     <string name="emailText">Email</string>
     <string name="passwordText">Password</string>
     <string name="loginText">Login</string>
-    <string name="registerText">Regiter</string>
+    <string name="registerText">Register</string>
     <string name="logoutText">Logout</string>
     <string name="nameText">Name</string>
     <string name="maleText">Male</string>
