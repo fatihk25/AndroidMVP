@@ -2,7 +2,6 @@ package com.example.loginregistermvp.modul.login;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.util.Patterns;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,11 +13,10 @@ import androidx.annotation.Nullable;
 import com.basgeekball.awesomevalidation.AwesomeValidation;
 import com.basgeekball.awesomevalidation.utility.RegexTemplate;
 import com.example.loginregistermvp.R;
-import com.example.loginregistermvp.data.source.remote.SessionRepository;
+import com.example.loginregistermvp.data.source.local.SessionRepository;
 import com.example.loginregistermvp.data.source.remote.UserRepository;
 import com.example.loginregistermvp.modul.profile.ProfileActivity;
 import com.example.loginregistermvp.modul.register.RegisterActivity;
-import com.example.loginregistermvp.modul.register.RegisterContract;
 import com.irfankhoirul.mvp_core.base.BaseFragment;
 
 import butterknife.BindView;

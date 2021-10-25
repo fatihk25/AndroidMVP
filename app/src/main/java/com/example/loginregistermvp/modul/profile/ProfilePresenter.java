@@ -2,7 +2,7 @@ package com.example.loginregistermvp.modul.profile;
 
 import com.example.loginregistermvp.data.pojo.User;
 import com.example.loginregistermvp.data.source.remote.IUserRepository;
-import com.example.loginregistermvp.data.source.remote.SessionRepository;
+import com.example.loginregistermvp.data.source.local.SessionRepository;
 import com.irfankhoirul.mvp_core.custom_views.ConstantStatus;
 import com.irfankhoirul.mvp_core.data.DataResult;
 import com.irfankhoirul.mvp_core.data.RequestResponseListener;

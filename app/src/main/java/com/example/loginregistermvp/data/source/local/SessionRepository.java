@@ -1,4 +1,4 @@
-package com.example.loginregistermvp.data.source.remote;
+package com.example.loginregistermvp.data.source.local;
 
 import android.content.Context;
 import android.content.SharedPreferences;
