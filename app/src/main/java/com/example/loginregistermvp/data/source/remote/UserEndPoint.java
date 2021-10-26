@@ -23,9 +23,6 @@ public interface UserEndPoint {
     @FormUrlEncoded
     @POST(LOGIN_ENDPOINT)
     Call<DataResult<User>> login (@FieldMap(encoded = true) Map<String, String> param);
-//    @FormUrlEncoded
-//    @POST(LOGIN_ENDPOINT)
-//    Call<DataResult<User>> login (@Field(encoded = true, value = "email") String email, @Field("password") String password);
 
     @FormUrlEncoded
     @POST(LOGOUT_ENDPOINT)

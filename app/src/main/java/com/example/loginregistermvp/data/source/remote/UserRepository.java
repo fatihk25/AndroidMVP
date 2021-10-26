@@ -48,7 +48,6 @@ public class UserRepository extends BaseRemoteRepository<UserEndPoint> implement
         params.put("email", email);
         params.put("password", password);
         Call<DataResult<User>> call = endPoint.login(params);
-//        Call<DataResult<User>> call = endPoint.login(email, password);
         execute(call, listener);
     }
 
